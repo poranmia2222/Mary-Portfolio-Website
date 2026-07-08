@@ -15,6 +15,9 @@ img {
 .primery-text-color {
     color: #757575;
 }
+.secondery-color{
+    color: #474747;
+}
 
 .container {
     max-width: 1200px;
@@ -194,6 +197,9 @@ hero section styles
     text-align: center;
     margin: 50px 0px;
 }
+.what-i-do-text h1{
+    margin: 30px 0px;
+}
 
 .cards-wrapper {
     display: flex;
@@ -220,4 +226,42 @@ hero section styles
 }
 .skill-card p{
     font-size: 16px;
+}
+
+/* 
+====================
+what i do section styles
+====================
+*/
+
+.summary{
+    margin: 60px auto;
+}
+.resume{
+    display: flex;
+    gap: 20px;
+}
+.resume-title{
+    text-align: center;
+    margin: 70px 0px;
+}
+.education{
+    color: #757575;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.education h3{
+    color:#474747;
+}
+.experience{
+    color: #757575;
+    margin: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.experience h3{
+    color:#474747;
 }
