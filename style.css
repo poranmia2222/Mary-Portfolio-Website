@@ -7,12 +7,15 @@
 img {
     width: 100%;
 }
-.bold{
+
+.bold {
     font-weight: bold;
 }
-.primery-text-color{
+
+.primery-text-color {
     color: #757575;
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -45,12 +48,17 @@ Navigation styles
     color: #FD6E0A;
 }
 
-.nav-links {
+.nav-links,
+ul,
+li,
+a {
     display: flex;
     justify-items: center;
     align-items: center;
     list-style: none;
+    text-decoration: none;
     font-size: 20px;
+    color: #474747;
 }
 
 .nav-right {
@@ -64,10 +72,10 @@ Navigation styles
     cursor: pointer;
 }
 
-.nav-links a {
+/* .nav-links a {
     text-decoration: none;
     color: #474747;
-}
+} */
 
 /* 
 ====================
@@ -110,7 +118,7 @@ hero section styles
 .hero-section {
     width: 100%;
     background-color: #FFF8F3;
-    
+
 }
 
 .hero-wrapper {
@@ -123,17 +131,19 @@ hero section styles
     background-position: right bottom;
     background-size: 52%;
     bottom: 0;
-    
+
 }
 
 .hero-btns {
     display: flex;
     gap: 10px;
 }
-.hero-content{
+
+.hero-content {
     width: 560px;
 }
-.hero-img img{
+
+.hero-img img {
     height: 506px;
 }
 
@@ -150,28 +160,64 @@ hero section styles
     font-size: 18px;
     color: #757575;
 }
-.hero-wrapper img{
-position: bottom;
+
+.hero-wrapper img {
+    position: bottom;
 }
+
 .hero-btns {
     margin: 20px 0px;
 }
 
 
-.about-me-section{
+.about-me-section {
     width: 840px;
     background-color: #FFF8F3;
-    margin:20px auto;
+    margin: 20px auto;
     text-align: center;
     padding: 50px;
     border-radius: 20px;
 }
-.about-me-section h1{
+
+.about-me-section h1 {
     margin: 20px 0px;
 }
-.my-info{
+
+.my-info {
     display: flex;
     gap: 70px;
     justify-content: center;
     margin: 30px 0px;
+}
+
+.what-i-do-text{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+.skill-card {
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    padding: 20px;
+    width: 267px;
+    height: 277px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.1), 0px 2px 4px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-card img {
+    width: 44px;
+    height: 44px;
+    margin: 20px 0px;
+}
+.skill-card h3{
+    margin: 20px 0px;
+}
+.skill-card p{
+    font-size: 16px;
 }
